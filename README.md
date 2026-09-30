@@ -92,3 +92,6 @@
 <div align="center">
   <i>"the best security tool is the one that's honest about what it doesn't do."</i>
 </div>
+
+---
+maintained · verified 2026-09-30
