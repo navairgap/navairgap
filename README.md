@@ -6,6 +6,7 @@
 
 **[navairgap.github.io](https://navairgap.github.io) — portfolio →**
 **[3d-portfolio](https://3d-portfolio-nav-8975.vercel.app) — step inside the room →**
+**[navairgap OS](https://navairgap.github.io/os/) — a portfolio you can boot →**
 
 <img src="assets/terminal.svg" width="620">
 
@@ -47,6 +48,10 @@
 **[SentinelWiFi](https://github.com/navairgap/SentinelWiFi)** — passive network security auditor. Evil-twin & rogue-DHCP detection, device inventory with newcomer alarms, exposed-service scanning, WPS/PMF analysis — graded A–F with plain-language fixes. 36 tests. CI-enforced. 100% passive.
 
 **[banter](https://github.com/navairgap/banter)** — real-time public chat rooms. No accounts, no database. XSS-proof by construction, two-client integration tests.
+
+**[python-projects](https://github.com/navairgap/python-projects)** — six complete CLI tools in pure stdlib Python: passwords, todos, weather, disk audit, network diagnostics, a static server. 30+ tests, CI green across 3.9–3.12, zero dependencies.
+
+**[dotfiles](https://github.com/navairgap/dotfiles)** — Nothing OS × Hyprland rice. floating pill taskbar, dot-matrix widgets, JND fonts, generated wallpapers.
 
 **airgap-os** *(repo coming soon)* — a hobby kernel in progress: multiboot handoff, VGA driver, interrupts, memory, syscalls — the deepest way to learn how computers work.
 
@@ -92,10 +97,3 @@
 <div align="center">
   <i>"the best security tool is the one that's honest about what it doesn't do."</i>
 </div>
-
----
-maintained · verified 2026-09-30
----
-maintained · verified 2026-10-01
----
-maintained · verified 2026-10-02
