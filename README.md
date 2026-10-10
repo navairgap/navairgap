@@ -8,12 +8,6 @@
 **[3d-portfolio](https://3d-portfolio-nav-8975.vercel.app) — step inside the room →**
 **[navairgap OS](https://navairgap.github.io/os/) — a portfolio you can boot →**
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg" />
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" />
-</picture>
-
 
 <img src="assets/terminal.svg" width="620">
 
@@ -104,3 +98,11 @@
 <div align="center">
   <i>"the best security tool is the one that's honest about what it doesn't do."</i>
 </div>
+
+## 3D Contribution Graph
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg" />
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" />
+</picture>
