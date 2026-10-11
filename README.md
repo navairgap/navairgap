@@ -92,35 +92,17 @@ every defense starts as an attack
 
 <br/>
 
-## `◢ stack`
+## `◢ neofetch`
 
 <div align="center">
 
-![python](https://img.shields.io/badge/python-0d1117?style=for-the-badge&logo=python&logoColor=00ff88)
-![rust](https://img.shields.io/badge/rust-0d1117?style=for-the-badge&logo=rust&logoColor=ff3131)
-![c](https://img.shields.io/badge/c-0d1117?style=for-the-badge&logo=c&logoColor=00ff88)
-![cpp](https://img.shields.io/badge/c++-0d1117?style=for-the-badge&logo=c%2B%2B&logoColor=ff3131)
-![js](https://img.shields.io/badge/javascript-0d1117?style=for-the-badge&logo=javascript&logoColor=00ff88)
-![ts](https://img.shields.io/badge/typescript-0d1117?style=for-the-badge&logo=typescript&logoColor=ff3131)
-![solidity](https://img.shields.io/badge/solidity-0d1117?style=for-the-badge&logo=solidity&logoColor=00ff88)
-![bash](https://img.shields.io/badge/bash-0d1117?style=for-the-badge&logo=gnu-bash&logoColor=ff3131)
-
-<br/>
-
-![arch](https://img.shields.io/badge/arch-0d1117?style=for-the-badge&logo=arch-linux&logoColor=00ff88)
-![linux](https://img.shields.io/badge/linux-0d1117?style=for-the-badge&logo=linux&logoColor=ff3131)
-![docker](https://img.shields.io/badge/docker-0d1117?style=for-the-badge&logo=docker&logoColor=00ff88)
-![git](https://img.shields.io/badge/git-0d1117?style=for-the-badge&logo=git&logoColor=ff3131)
-![ghactions](https://img.shields.io/badge/actions-0d1117?style=for-the-badge&logo=github-actions&logoColor=00ff88)
-![neovim](https://img.shields.io/badge/neovim-0d1117?style=for-the-badge&logo=neovim&logoColor=ff3131)
-
-<br/>
-
-![wireshark](https://img.shields.io/badge/wireshark-0d1117?style=for-the-badge&logo=wireshark&logoColor=00ff88)
-![nmap](https://img.shields.io/badge/nmap-0d1117?style=for-the-badge&logo=nmap&logoColor=ff3131)
-![burp](https://img.shields.io/badge/burp_suite-0d1117?style=for-the-badge&logo=portswigger&logoColor=00ff88)
-![aircrack](https://img.shields.io/badge/aircrack--ng-0d1117?style=for-the-badge&logo=wifi&logoColor=ff3131)
-![raspberrypi](https://img.shields.io/badge/rtl--sdr-0d1117?style=for-the-badge&logo=raspberry-pi&logoColor=00ff88)
+<a href="https://github.com/jeantimex/neofetch-profile">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://neofetch-profile.vercel.app/api?username=navairgap&theme=github-dark&config=https%3A%2F%2Fraw.githubusercontent.com%2Fnavairgap%2Fnavairgap%2Fmain%2Fneofetch.json" />
+  <source media="(prefers-color-scheme: light)" srcset="https://neofetch-profile.vercel.app/api?username=navairgap&theme=github-light&config=https%3A%2F%2Fraw.githubusercontent.com%2Fnavairgap%2Fnavairgap%2Fmain%2Fneofetch.json" />
+  <img alt="neofetch" src="https://neofetch-profile.vercel.app/api?username=navairgap&theme=github-dark&config=https%3A%2F%2Fraw.githubusercontent.com%2Fnavairgap%2Fnavairgap%2Fmain%2Fneofetch.json" />
+</picture>
+</a>
 
 </div>
 
