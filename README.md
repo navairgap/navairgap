@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/boot.png" alt="boot sequence" width="1000"/>
+<img src="assets/boot.gif" alt="boot sequence" width="1000"/>
 
 </div>
 
@@ -12,7 +12,7 @@
 
 ![DEFENSE](https://img.shields.io/badge/DEFENSE-0d1117?style=for-the-badge&labelColor=00ff88&color=0d1117)
 &nbsp;&nbsp;&nbsp;
-![INVERTED](https://img.shields.io/badge/IS_OFFENSE-ff3131?style=for-the-badge&labelColor=0d1117&color=ff3131)
+![IS_OFFENSE](https://img.shields.io/badge/IS_OFFENSE-ff3131?style=for-the-badge&labelColor=0d1117&color=ff3131)
 &nbsp;&nbsp;&nbsp;
 ![INVERTED](https://img.shields.io/badge/INVERTED-0d1117?style=for-the-badge&labelColor=ff3131&color=0d1117)
 
@@ -38,7 +38,7 @@
 
 &nbsp;&nbsp; ![OPERATIONAL](https://img.shields.io/badge/OPERATIONAL-00ff88?style=flat-square&labelColor=0d1117) &nbsp; **[dotfiles](https://github.com/navairgap/dotfiles)** — Nothing OS × Hyprland · pill taskbar · dot widgets
 
-&nbsp;&nbsp; ![FIELD TEST](https://img.shields.io/badge/FIELD%20TEST-ff3131?style=flat-square&labelColor=0d1117) &nbsp; **[3d-portfolio](https://github.com/navairgap/3d-portfolio)** — photoreal room, browser-native, deployed
+&nbsp;&nbsp; ![FIELD TEST](https://img.shields.io/badge/FIELD_TEST-ff3131?style=flat-square&labelColor=0d1117) &nbsp; **[3d-portfolio](https://github.com/navairgap/3d-portfolio)** — photoreal room, browser-native, deployed
 
 &nbsp;&nbsp; ![RECON](https://img.shields.io/badge/RECON-ff3131?style=flat-square&labelColor=0d1117) &nbsp; **[tls-probe](https://github.com/navairgap/tls-probe)** — hand-rolled TLS inspection, socket-up
 
@@ -84,11 +84,9 @@ every defense starts as an attack
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/navairgap/navairgap/main/profile-3d-contrib/profile-night-green.svg" width="1000"/>
+<img src="assets/3d-greenred.svg" width="1000"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=navairgap&theme=transparent&ring=00ff88&fire=ff3131&hide_border=true&currStreakNum=00ff88&sideNums=00ff88&currStreakLabel=00cc66&sideLabels=00cc66&dates=00cc66&card_width=1000"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=navairgap&theme=high-contrast&hide_border=true&bg_color=00000000&color=00ff88&line=00cc66&point=ff3131&area=true&area_color=00ff8822"/>
+<img src="https://streak-stats.demolab.com?user=navairgap&theme=transparent&ring=00ff88&fire=ff3131&hide_border=true&currStreakNum=00ff88&sideNums=00ff88&currStreakLabel=00cc66&sideLabels=00cc66&dates=00cc66&card_width=1000"/>
 
 </div>
 
@@ -98,14 +96,31 @@ every defense starts as an attack
 
 <div align="center">
 
-**write** &nbsp;
-<img src="https://skillicons.dev/icons?i=python,rust,c,cpp,js,ts,solidity&perline=14" />
+![python](https://img.shields.io/badge/python-0d1117?style=for-the-badge&logo=python&logoColor=00ff88)
+![rust](https://img.shields.io/badge/rust-0d1117?style=for-the-badge&logo=rust&logoColor=ff3131)
+![c](https://img.shields.io/badge/c-0d1117?style=for-the-badge&logo=c&logoColor=00ff88)
+![cpp](https://img.shields.io/badge/c++-0d1117?style=for-the-badge&logo=c%2B%2B&logoColor=ff3131)
+![js](https://img.shields.io/badge/javascript-0d1117?style=for-the-badge&logo=javascript&logoColor=00ff88)
+![ts](https://img.shields.io/badge/typescript-0d1117?style=for-the-badge&logo=typescript&logoColor=ff3131)
+![solidity](https://img.shields.io/badge/solidity-0d1117?style=for-the-badge&logo=solidity&logoColor=00ff88)
+![bash](https://img.shields.io/badge/bash-0d1117?style=for-the-badge&logo=gnu-bash&logoColor=ff3131)
 
-**run** &nbsp;
-<img src="https://skillicons.dev/icons?i=linux,arch,docker,git,githubactions,neovim&perline=14" />
+<br/>
 
-**break** &nbsp;
-<img src="https://skillicons.dev/icons?i=bash,kali,raspberrypi&perline=14" />
+![arch](https://img.shields.io/badge/arch-0d1117?style=for-the-badge&logo=arch-linux&logoColor=00ff88)
+![linux](https://img.shields.io/badge/linux-0d1117?style=for-the-badge&logo=linux&logoColor=ff3131)
+![docker](https://img.shields.io/badge/docker-0d1117?style=for-the-badge&logo=docker&logoColor=00ff88)
+![git](https://img.shields.io/badge/git-0d1117?style=for-the-badge&logo=git&logoColor=ff3131)
+![ghactions](https://img.shields.io/badge/actions-0d1117?style=for-the-badge&logo=github-actions&logoColor=00ff88)
+![neovim](https://img.shields.io/badge/neovim-0d1117?style=for-the-badge&logo=neovim&logoColor=ff3131)
+
+<br/>
+
+![wireshark](https://img.shields.io/badge/wireshark-0d1117?style=for-the-badge&logo=wireshark&logoColor=00ff88)
+![nmap](https://img.shields.io/badge/nmap-0d1117?style=for-the-badge&logo=nmap&logoColor=ff3131)
+![burp](https://img.shields.io/badge/burp_suite-0d1117?style=for-the-badge&logo=portswigger&logoColor=00ff88)
+![aircrack](https://img.shields.io/badge/aircrack--ng-0d1117?style=for-the-badge&logo=wifi&logoColor=ff3131)
+![raspberrypi](https://img.shields.io/badge/rtl--sdr-0d1117?style=for-the-badge&logo=raspberry-pi&logoColor=00ff88)
 
 </div>
 
@@ -135,17 +150,7 @@ every defense starts as an attack
 
 </div>
 
----
-
 <div align="center">
-
-## 3D Contribution Graph
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg" />
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" />
-</picture>
 
 <sub>◢ green for the defense. red for the rest.</sub>
 
