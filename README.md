@@ -84,7 +84,7 @@ every defense starts as an attack
 
 <div align="center">
 
-<img src="assets/3d-greenred.svg" width="1000"/>
+<img src="./profile-3d-contrib/profile-night-green.svg" width="1000"/>
 
 <img src="https://streak-stats.demolab.com?user=navairgap&theme=transparent&ring=00ff88&fire=ff3131&hide_border=true&currStreakNum=00ff88&sideNums=00ff88&currStreakLabel=00cc66&sideLabels=00cc66&dates=00cc66&card_width=1000"/>
 
