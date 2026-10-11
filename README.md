@@ -130,7 +130,7 @@ every defense starts as an attack
 
 **[navairgap.github.io](https://navairgap.github.io)** — the lab, live →
 &nbsp;·&nbsp;
-**[3d-portfolio](https://3d-portfolio-nav-8975.vercel.app)** — step inside the room →
+**[3d-portfolio](https://github.com/navairgap/3d-portfolio)** — step inside the room →
 &nbsp;·&nbsp;
 **[navairgap OS](https://navairgap.github.io/os/)** — a portfolio you can boot →
 
