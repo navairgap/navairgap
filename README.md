@@ -137,3 +137,7 @@ every defense starts as an attack
 <sub>◢ green for the defense. red for the rest.</sub>
 
 </div>
+
+## Changelog
+
+2026-10: profile went green+red — custom boot gif, recolored 3d chart, neofetch card, achievements showcase. the landing got a WebGL fluid background and glow cards.
