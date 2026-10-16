@@ -138,25 +138,9 @@ every defense starts as an attack
 
 </div>
 
-## `◢ achievement unlocked — security hardening sprint`
-
-![SECURITY HARDENING](https://img.shields.io/badge/SECURITY-HARDENING-00ff88?style=for-the-badge&labelColor=0d1117)
-
-**Shipped security-focused fixes across five public repositories; CI checks passed.**
-
-- **[banter](https://github.com/navairgap/banter)** — connection caps, event throttles, room limits, origin checks, and payload-size limits · [CI run](https://github.com/navairgap/banter/actions/runs/38934911981)
-- **[sentinel-dns](https://github.com/navairgap/sentinel-dns)** — HTTPS-only webhook delivery with TLS verification and redirect protection · [CI run](https://github.com/navairgap/sentinel-dns/actions/runs/38934923243)
-- **[3d-portfolio](https://github.com/navairgap/3d-portfolio)** — TypeScript errors no longer bypass production builds; typecheck/build CI · [CI run](https://github.com/navairgap/3d-portfolio/actions/runs/38934783238)
-- **[python-projects](https://github.com/navairgap/python-projects)** — directory listings disabled by default, with regression coverage · [CI run](https://github.com/navairgap/python-projects/actions/runs/38934001949)
-- **[SentinelWiFi](https://github.com/navairgap/SentinelWiFi)** — safer AppleScript notification string handling · [CI run](https://github.com/navairgap/SentinelWiFi/actions/runs/38933907426)
-
-<sub>Project milestone, not a GitHub-issued badge. The linked commits and CI runs are the evidence.</sub>
-
-<br/>
-
 ## Changelog
 
-2026-10: profile went green+red — custom boot gif, recolored 3d chart, neofetch card, achievements showcase. the landing got a WebGL fluid background and glow cards.
+2026-10: profile went green+red — custom boot gif, recolored 3d chart, neofetch card. the landing got a WebGL fluid background and glow cards.
 
 ## Now
 
