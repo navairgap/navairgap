@@ -145,3 +145,7 @@ every defense starts as an attack
 ## Now
 
 currently: deepening rust — sentinel-dns and macabre. keeping CI green everywhere. open to interesting problems.
+
+## History
+
+the profile has been through eras: hand-built dark cyberpunk, a spline mannequin phase, a full-screen fluid hero, and now the green+red terminal. each era shipped; none were deleted — they're all in this repo's history.
