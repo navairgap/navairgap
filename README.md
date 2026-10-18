@@ -1,12 +1,6 @@
 <div align="center">
 
-<img src="assets/boot.gif" alt="Navairgap terminal boot sequence" width="860"/>
-
-# NAVAIRGAP
-
-### Security-focused developer · Defensive tooling · Linux systems
-
-Build small, practical tools that make systems easier to inspect, test, and defend.
+<img src="assets/security-banner.svg" alt="Navairgap security engineering terminal banner" width="100%"/>
 
 <p>
   <a href="https://github.com/navairgap?tab=repositories">Repositories</a>
@@ -19,50 +13,133 @@ Build small, practical tools that make systems easier to inspect, test, and defe
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=black" alt="Rust"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/Linux-333333?style=flat-square&logo=linux&logoColor=white" alt="Linux"/>
-  <img src="https://img.shields.io/badge/Testing_%26_CI-2088FF?style=flat-square&logo=github-actions&logoColor=white" alt="Testing and CI"/>
+  <img src="https://img.shields.io/badge/Python-0B1710?style=flat-square&logo=python&logoColor=00FF88" alt="Python"/>
+  <img src="https://img.shields.io/badge/Rust-0B1710?style=flat-square&logo=rust&logoColor=00FF88" alt="Rust"/>
+  <img src="https://img.shields.io/badge/TypeScript-0B1710?style=flat-square&logo=typescript&logoColor=00FF88" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Linux-0B1710?style=flat-square&logo=linux&logoColor=00FF88" alt="Linux"/>
+  <img src="https://img.shields.io/badge/GitHub_Actions-0B1710?style=flat-square&logo=githubactions&logoColor=00FF88" alt="GitHub Actions"/>
 </p>
 
 </div>
 
 ---
 
-## About
+## `$ whoami`
 
-I build and maintain small security and systems projects, with a focus on network visibility, protocol behavior, defensive automation, and reliable command-line tools.
+Security-focused developer building practical tools for **network visibility, defensive automation, and Linux systems**. I like small, inspectable software with safe defaults, clear output, and tests that explain the expected behavior.
 
-I care about **clear output, safe defaults, useful tests, and honest documentation**. My projects are learning and engineering work—not claims of certifications or professional security engagements.
+My repositories are a mix of implemented tools, experiments, and learning projects. I aim to keep their scope and maturity clear—no inflated claims, just code and evidence.
 
-## Focus areas
+## `$ focus`
 
-- **Network & protocol analysis** — DNS behavior, local network visibility, and TLS configuration.
-- **Defensive engineering** — input validation, resource limits, logging, regression tests, and CI checks.
-- **Systems tooling** — Linux, Python, Rust, shell scripting, and small tools that are easy to inspect.
-- **Web engineering** — TypeScript, React, API hardening, and practical application security.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-## Selected work
+**01 / Network visibility**
 
-| Project | What it does |
-| --- | --- |
-| [**SentinelWiFi**](https://github.com/navairgap/SentinelWiFi) | A passive, local-first health check for a Wi-Fi/LAN you own or are authorized to assess. Audits configuration, inventories devices, and explains findings. |
-| [**sentinel-dns**](https://github.com/navairgap/sentinel-dns) | Scores DNS traffic for suspicious domain patterns and bursts; supports offline PCAP analysis and streaming input, with JSONL alerts and optional HTTPS webhooks. |
-| [**banter**](https://github.com/navairgap/banter) | Real-time Socket.IO chat with connection limits, event throttling, payload bounds, origin checks, and integration tests. |
-| [**python-projects**](https://github.com/navairgap/python-projects) | Six standard-library Python CLI tools, each with tests; CI covers Python 3.9–3.12. |
-| [**macabre**](https://github.com/navairgap/learning-rust/tree/main/macabre) | A Linux command-line tool to inspect, change, and restore network-interface MAC addresses, with guarded privileged operations. |
-| [**nav-portfolio**](https://github.com/navairgap/nav-portfolio) | A terminal-inspired portfolio with lexical retrieval, optional semantic search, and a rate-limited server endpoint. |
+DNS traffic analysis, home-network checks, device inventory, TLS behavior, and useful protocol-level diagnostics.
 
-I also build interface and desktop-style experiments: [3D portfolio](https://github.com/navairgap/3d-portfolio), [portfolio OS](https://github.com/navairgap/portfolio-os), and [dotfiles](https://github.com/navairgap/dotfiles).
+</td>
+<td width="50%" valign="top">
 
-## Engineering principles
+**02 / Defensive engineering**
 
-- Test only systems I own or have explicit permission to assess.
-- Prefer passive observation and local processing where practical.
-- Validate untrusted input; bound resource use; make failures explicit.
-- Treat a passing test suite as evidence for a change—not proof that software is vulnerability-free.
-- Keep project status and limitations visible in the documentation.
+Input validation, bounded resources, safe failure modes, useful logs, regression tests, and CI gates.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**03 / Systems**
+
+Linux, Python, Rust, shell scripting, command-line utilities, and understanding how software interacts with the OS.
+
+</td>
+<td width="50%" valign="top">
+
+**04 / Web**
+
+TypeScript, React, APIs, retrieval systems, and practical application hardening.
+
+</td>
+</tr>
+</table>
+
+## `$ featured_work`
+
+<table>
+<tr>
+<td width="34%" valign="top">
+
+### [SentinelWiFi](https://github.com/navairgap/SentinelWiFi)
+
+<img src="https://img.shields.io/badge/NETWORK-00FF88?style=flat-square&labelColor=0B1710" alt="Network"/>
+
+Local Wi-Fi and LAN health checks, device inventory, and explainable findings for networks you own or are authorized to assess.
+
+</td>
+<td width="33%" valign="top">
+
+### [sentinel-dns](https://github.com/navairgap/sentinel-dns)
+
+<img src="https://img.shields.io/badge/DNS_ANALYSIS-00FF88?style=flat-square&labelColor=0B1710" alt="DNS analysis"/>
+
+Heuristic detection of suspicious DNS domain patterns and bursts, with offline capture analysis, streaming input, JSONL alerts, and optional HTTPS webhooks.
+
+</td>
+<td width="33%" valign="top">
+
+### [banter](https://github.com/navairgap/banter)
+
+<img src="https://img.shields.io/badge/WEB_SYSTEMS-00FF88?style=flat-square&labelColor=0B1710" alt="Web systems"/>
+
+Real-time Socket.IO chat with origin checks, connection caps, event throttling, bounded payloads, and integration tests.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+### [python-projects](https://github.com/navairgap/python-projects)
+
+<img src="https://img.shields.io/badge/PYTHON_CLI-00FF88?style=flat-square&labelColor=0B1710" alt="Python CLI"/>
+
+A collection of standard-library command-line tools with tests, including password generation, network diagnostics, disk auditing, and static file serving.
+
+</td>
+<td valign="top">
+
+### [macabre](https://github.com/navairgap/learning-rust/tree/main/macabre)
+
+<img src="https://img.shields.io/badge/RUST_SYSTEMS-00FF88?style=flat-square&labelColor=0B1710" alt="Rust systems"/>
+
+A Linux CLI for inspecting, changing, and restoring network-interface MAC addresses.
+
+</td>
+<td valign="top">
+
+### [nav-portfolio](https://github.com/navairgap/nav-portfolio)
+
+<img src="https://img.shields.io/badge/WEB_ENGINEERING-00FF88?style=flat-square&labelColor=0B1710" alt="Web engineering"/>
+
+A terminal-style portfolio with BM25 retrieval, optional semantic search, and a rate-limited API endpoint.
+
+</td>
+</tr>
+</table>
+
+More interface and systems experiments: [3D portfolio](https://github.com/navairgap/3d-portfolio) · [portfolio OS](https://github.com/navairgap/portfolio-os) · [dotfiles](https://github.com/navairgap/dotfiles).
+
+## `$ principles`
+
+- **Authorized scope only.** Test systems I own or have explicit permission to assess.
+- **Safe by default.** Prefer local processing and passive observation where practical; validate untrusted input and bound resource use.
+- **Evidence over hype.** Tests and CI help establish behavior, but a green build is not a security guarantee.
+- **Document the limits.** Explain assumptions, failure modes, and what a tool does not do.
+
+---
 
 ## Activity
 
@@ -90,10 +167,12 @@ I also build interface and desktop-style experiments: [3D portfolio](https://git
 
 <div align="center">
 
-**Explore the work:** [Repositories](https://github.com/navairgap?tab=repositories) · [Portfolio](https://navairgap.github.io) · [3D portfolio](https://3d-portfolio-nav-8975.vercel.app)
+<a href="https://github.com/navairgap?tab=repositories">[ VIEW REPOSITORIES ]</a>
+&nbsp;·&nbsp;
+<a href="https://navairgap.github.io">[ OPEN PORTFOLIO ]</a>
 
-<img src="https://komarev.com/ghpvc/?username=navairgap&color=00cc66&style=flat-square" alt="Profile views"/>
+<img src="https://komarev.com/ghpvc/?username=navairgap&color=00ff88&style=flat-square" alt="Profile views"/>
 
-<sub>Build responsibly. Measure honestly. Keep learning.</sub>
+<sub><code>build responsibly / measure honestly / keep learning</code></sub>
 
 </div>
