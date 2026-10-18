@@ -1,151 +1,99 @@
 <div align="center">
 
-<img src="assets/boot.gif" alt="boot sequence" width="1000"/>
+<img src="assets/boot.gif" alt="Navairgap terminal boot sequence" width="860"/>
+
+# NAVAIRGAP
+
+### Security-focused developer · Defensive tooling · Linux systems
+
+Build small, practical tools that make systems easier to inspect, test, and defend.
+
+<p>
+  <a href="https://github.com/navairgap?tab=repositories">Repositories</a>
+  &nbsp;·&nbsp;
+  <a href="https://navairgap.github.io">Portfolio</a>
+  &nbsp;·&nbsp;
+  <a href="https://3d-portfolio-nav-8975.vercel.app">3D portfolio</a>
+  &nbsp;·&nbsp;
+  <a href="https://navairgap.github.io/os/">Portfolio OS</a>
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=black" alt="Rust"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Linux-333333?style=flat-square&logo=linux&logoColor=white" alt="Linux"/>
+  <img src="https://img.shields.io/badge/Testing_%26_CI-2088FF?style=flat-square&logo=github-actions&logoColor=white" alt="Testing and CI"/>
+</p>
 
 </div>
 
 ---
 
-<br/>
+## About
+
+I build and maintain small security and systems projects, with a focus on network visibility, protocol behavior, defensive automation, and reliable command-line tools.
+
+I care about **clear output, safe defaults, useful tests, and honest documentation**. My projects are learning and engineering work—not claims of certifications or professional security engagements.
+
+## Focus areas
+
+- **Network & protocol analysis** — DNS behavior, local network visibility, and TLS configuration.
+- **Defensive engineering** — input validation, resource limits, logging, regression tests, and CI checks.
+- **Systems tooling** — Linux, Python, Rust, shell scripting, and small tools that are easy to inspect.
+- **Web engineering** — TypeScript, React, API hardening, and practical application security.
+
+## Selected work
+
+| Project | What it does |
+| --- | --- |
+| [**SentinelWiFi**](https://github.com/navairgap/SentinelWiFi) | A passive, local-first health check for a Wi-Fi/LAN you own or are authorized to assess. Audits configuration, inventories devices, and explains findings. |
+| [**sentinel-dns**](https://github.com/navairgap/sentinel-dns) | Scores DNS traffic for suspicious domain patterns and bursts; supports offline PCAP analysis and streaming input, with JSONL alerts and optional HTTPS webhooks. |
+| [**banter**](https://github.com/navairgap/banter) | Real-time Socket.IO chat with connection limits, event throttling, payload bounds, origin checks, and integration tests. |
+| [**python-projects**](https://github.com/navairgap/python-projects) | Six standard-library Python CLI tools, each with tests; CI covers Python 3.9–3.12. |
+| [**macabre**](https://github.com/navairgap/learning-rust/tree/main/macabre) | A Linux command-line tool to inspect, change, and restore network-interface MAC addresses, with guarded privileged operations. |
+| [**nav-portfolio**](https://github.com/navairgap/nav-portfolio) | A terminal-inspired portfolio with lexical retrieval, optional semantic search, and a rate-limited server endpoint. |
+
+I also build interface and desktop-style experiments: [3D portfolio](https://github.com/navairgap/3d-portfolio), [portfolio OS](https://github.com/navairgap/portfolio-os), and [dotfiles](https://github.com/navairgap/dotfiles).
+
+## Engineering principles
+
+- Test only systems I own or have explicit permission to assess.
+- Prefer passive observation and local processing where practical.
+- Validate untrusted input; bound resource use; make failures explicit.
+- Treat a passing test suite as evidence for a change—not proof that software is vulnerability-free.
+- Keep project status and limitations visible in the documentation.
+
+## Activity
 
 <div align="center">
 
-![DEFENSE](https://img.shields.io/badge/DEFENSE-0d1117?style=for-the-badge&labelColor=00ff88&color=0d1117)
-&nbsp;&nbsp;&nbsp;
-![IS_OFFENSE](https://img.shields.io/badge/IS_OFFENSE-ff3131?style=for-the-badge&labelColor=0d1117&color=ff3131)
-&nbsp;&nbsp;&nbsp;
-![INVERTED](https://img.shields.io/badge/INVERTED-0d1117?style=for-the-badge&labelColor=ff3131&color=0d1117)
+<img src="./profile-3d-contrib/profile-night-green.svg" width="1000" alt="3D GitHub contribution graph"/>
+
+<img src="https://streak-stats.demolab.com?user=navairgap&theme=transparent&ring=00ff88&fire=ff3131&hide_border=true&currStreakNum=00ff88&sideNums=00ff88&currStreakLabel=00cc66&sideLabels=00cc66&dates=00cc66&card_width=1000" alt="GitHub contribution streak"/>
 
 </div>
 
-<br/>
-
-> *"the air gap between attacker and target is my favorite place to stand."*
-
-<br/>
-
-## `◢ ops log — deployments`
-
-&nbsp;&nbsp; ![OPERATIONAL](https://img.shields.io/badge/OPERATIONAL-00ff88?style=flat-square&labelColor=0d1117) &nbsp; **[python-projects](https://github.com/navairgap/python-projects)** — six stdlib-only CLI tools, CI green on 3.9–3.12
-
-&nbsp;&nbsp; ![OPERATIONAL](https://img.shields.io/badge/OPERATIONAL-00ff88?style=flat-square&labelColor=0d1117) &nbsp; **[learning-rust](https://github.com/navairgap/learning-rust)** — `macabre`: your MAC, requiem'd · build+test+clippy+fmt gated
-
-&nbsp;&nbsp; ![OPERATIONAL](https://img.shields.io/badge/OPERATIONAL-00ff88?style=flat-square&labelColor=0d1117) &nbsp; **[SentinelWiFi](https://github.com/navairgap/SentinelWiFi)** — wifi deauth detection over RTL-SDR
-
-&nbsp;&nbsp; ![OPERATIONAL](https://img.shields.io/badge/OPERATIONAL-00ff88?style=flat-square&labelColor=0d1117) &nbsp; **[portfolio-os](https://github.com/navairgap/portfolio-os)** — a linux desktop that is a portfolio
-
-&nbsp;&nbsp; ![OPERATIONAL](https://img.shields.io/badge/OPERATIONAL-00ff88?style=flat-square&labelColor=0d1117) &nbsp; **[banter](https://github.com/navairgap/banter)** — zero-history chat, two-client integration tests in CI
-
-&nbsp;&nbsp; ![OPERATIONAL](https://img.shields.io/badge/OPERATIONAL-00ff88?style=flat-square&labelColor=0d1117) &nbsp; **[dotfiles](https://github.com/navairgap/dotfiles)** — Nothing OS × Hyprland · pill taskbar · dot widgets
-
-&nbsp;&nbsp; ![FIELD TEST](https://img.shields.io/badge/FIELD_TEST-ff3131?style=flat-square&labelColor=0d1117) &nbsp; **[3d-portfolio](https://github.com/navairgap/3d-portfolio)** — photoreal room, browser-native, deployed
-
-&nbsp;&nbsp; ![RECON](https://img.shields.io/badge/RECON-ff3131?style=flat-square&labelColor=0d1117) &nbsp; **[tls-probe](https://github.com/navairgap/tls-probe)** — hand-rolled TLS inspection, socket-up
-
-<br/>
-
-## `◢ the inversion`
-
-<table align="center">
-<tr>
-<td width="380" valign="top">
-
-**◤ DEFENSE — what i ship**
-
-`honeypot-lite` — fake services, real logs
-`SentinelWiFi` — deauth detection, SDR
-`portwarden` — encrypted port knocking
-`sentinel-dns` — exfil detection at the resolver
-`macabre` — MAC privacy, one command
-
-</td>
-<td width="60" align="center" valign="middle">
-
-`⇄`
-
-</td>
-<td width="380" valign="top">
-
-**◥ OFFENSE — how i learn**
-
-CTFs — pwn · crypto · web
-deauth & wifi research, documented
-adversarial tooling in throwaway repos
-writeups with dead ends included
-every defense starts as an attack
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-## `◢ signal`
-
-<div align="center">
-
-<img src="./profile-3d-contrib/profile-night-green.svg" width="1000"/>
-
-<img src="https://streak-stats.demolab.com?user=navairgap&theme=transparent&ring=00ff88&fire=ff3131&hide_border=true&currStreakNum=00ff88&sideNums=00ff88&currStreakLabel=00cc66&sideLabels=00cc66&dates=00cc66&card_width=1000"/>
-
-</div>
-
-<br/>
-
-## `◢ neofetch`
-
-<div align="center">
-
-<a href="https://github.com/jeantimex/neofetch-profile">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://neofetch-profile.vercel.app/api?username=navairgap&theme=github-dark&config=https%3A%2F%2Fraw.githubusercontent.com%2Fnavairgap%2Fnavairgap%2Fmain%2Fneofetch.json" />
-  <source media="(prefers-color-scheme: light)" srcset="https://neofetch-profile.vercel.app/api?username=navairgap&theme=github-light&config=https%3A%2F%2Fraw.githubusercontent.com%2Fnavairgap%2Fnavairgap%2Fmain%2Fneofetch.json" />
-  <img alt="neofetch" src="https://neofetch-profile.vercel.app/api?username=navairgap&theme=github-dark&config=https%3A%2F%2Fraw.githubusercontent.com%2Fnavairgap%2Fnavairgap%2Fmain%2Fneofetch.json" />
-</picture>
-</a>
-
-</div>
-
-<br/>
-
-<div align="center">
-
-**[navairgap.github.io](https://navairgap.github.io)** — the lab, live →
-&nbsp;·&nbsp;
-**[3d-portfolio](https://github.com/navairgap/3d-portfolio)** — step inside the room →
-&nbsp;·&nbsp;
-**[navairgap OS](https://navairgap.github.io/os/)** — a portfolio you can boot →
-
-![views](https://komarev.com/ghpvc/?username=navairgap&color=00ff88&style=flat-square)
-
-</div>
-
----
+## Contribution snake
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/navairgap/navairgap/main/dist/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/navairgap/navairgap/main/dist/github-snake.svg" />
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/navairgap/navairgap/main/dist/github-snake-dark.svg" />
+  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/navairgap/navairgap/main/dist/github-snake-dark.svg" />
 </picture>
 
 </div>
 
+---
+
 <div align="center">
 
-<sub>◢ green for the defense. red for the rest.</sub>
+**Explore the work:** [Repositories](https://github.com/navairgap?tab=repositories) · [Portfolio](https://navairgap.github.io) · [3D portfolio](https://3d-portfolio-nav-8975.vercel.app)
+
+<img src="https://komarev.com/ghpvc/?username=navairgap&color=00cc66&style=flat-square" alt="Profile views"/>
+
+<sub>Build responsibly. Measure honestly. Keep learning.</sub>
 
 </div>
-
-## Changelog
-
-2026-10: profile went green+red — custom boot gif, recolored 3d chart, neofetch card. the landing got a WebGL fluid background and glow cards.
-
-## Now
-
-currently: deepening rust — sentinel-dns and macabre. keeping CI green everywhere. open to interesting problems.
-
-## History
-
-the profile has been through eras: hand-built dark cyberpunk, a spline mannequin phase, a full-screen fluid hero, and now the green+red terminal. each era shipped; none were deleted — they're all in this repo's history.
