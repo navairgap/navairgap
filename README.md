@@ -1,24 +1,18 @@
 <div align="center">
 
-<img src="assets/security-banner.svg" alt="Navairgap security engineering terminal banner" width="100%"/>
+<img src="assets/profile-terminal.svg" alt="Animated green terminal header — network security and systems" width="100%"/>
 
 <p>
-  <a href="https://github.com/navairgap?tab=repositories">Repositories</a>
-  &nbsp;·&nbsp;
-  <a href="https://navairgap.github.io">Portfolio</a>
-  &nbsp;·&nbsp;
-  <a href="https://3d-portfolio-nav-8975.vercel.app">3D portfolio</a>
-  &nbsp;·&nbsp;
-  <a href="https://navairgap.github.io/os/">Portfolio OS</a>
+  <a href="https://github.com/navairgap?tab=repositories">REPOSITORIES</a>
+  &nbsp; / &nbsp;
+  <a href="https://navairgap.github.io">PORTFOLIO</a>
+  &nbsp; / &nbsp;
+  <a href="https://3d-portfolio-nav-8975.vercel.app">3D LAB</a>
+  &nbsp; / &nbsp;
+  <a href="https://navairgap.github.io/os/">PORTFOLIO OS</a>
 </p>
 
-<p>
-  <img src="https://img.shields.io/badge/Python-0B1710?style=flat-square&logo=python&logoColor=00FF88" alt="Python"/>
-  <img src="https://img.shields.io/badge/Rust-0B1710?style=flat-square&logo=rust&logoColor=00FF88" alt="Rust"/>
-  <img src="https://img.shields.io/badge/TypeScript-0B1710?style=flat-square&logo=typescript&logoColor=00FF88" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/Linux-0B1710?style=flat-square&logo=linux&logoColor=00FF88" alt="Linux"/>
-  <img src="https://img.shields.io/badge/GitHub_Actions-0B1710?style=flat-square&logo=githubactions&logoColor=00FF88" alt="GitHub Actions"/>
-</p>
+<code>PYTHON</code> &nbsp; <code>RUST</code> &nbsp; <code>TYPESCRIPT</code> &nbsp; <code>LINUX</code> &nbsp; <code>NETWORKS</code>
 
 </div>
 
@@ -26,118 +20,78 @@
 
 ## `$ whoami`
 
-Security-focused developer building practical tools for **network visibility, defensive automation, and Linux systems**. I like small, inspectable software with safe defaults, clear output, and tests that explain the expected behavior.
+Security-focused developer interested in **network visibility, defensive tooling, and Linux systems**. I build small tools to inspect behavior, make useful findings readable, and test edge cases before shipping.
 
-My repositories are a mix of implemented tools, experiments, and learning projects. I aim to keep their scope and maturity clear—no inflated claims, just code and evidence.
+I prefer code you can follow, defaults that are difficult to misuse, and documentation that says what a project does — and what it does not.
 
-## `$ focus`
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**01 / Network visibility**
-
-DNS traffic analysis, home-network checks, device inventory, TLS behavior, and useful protocol-level diagnostics.
-
-</td>
-<td width="50%" valign="top">
-
-**02 / Defensive engineering**
-
-Input validation, bounded resources, safe failure modes, useful logs, regression tests, and CI gates.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**03 / Systems**
-
-Linux, Python, Rust, shell scripting, command-line utilities, and understanding how software interacts with the OS.
-
-</td>
-<td width="50%" valign="top">
-
-**04 / Web**
-
-TypeScript, React, APIs, retrieval systems, and practical application hardening.
-
-</td>
-</tr>
-</table>
-
-## `$ featured_work`
+## `$ work --featured`
 
 <table>
-<tr>
-<td width="34%" valign="top">
+  <tr>
+    <td width="50%" valign="top">
 
-### [SentinelWiFi](https://github.com/navairgap/SentinelWiFi)
+**[01 · SentinelWiFi](https://github.com/navairgap/SentinelWiFi)**
 
-<img src="https://img.shields.io/badge/NETWORK-00FF88?style=flat-square&labelColor=0B1710" alt="Network"/>
+Wi-Fi and LAN health checks for authorized environments. Audits local configuration, inventories devices, and presents findings with practical context.
 
-Local Wi-Fi and LAN health checks, device inventory, and explainable findings for networks you own or are authorized to assess.
+    </td>
+    <td width="50%" valign="top">
 
-</td>
-<td width="33%" valign="top">
+**[02 · sentinel-dns](https://github.com/navairgap/sentinel-dns)**
 
-### [sentinel-dns](https://github.com/navairgap/sentinel-dns)
+Resolver-side DNS analysis for suspicious domain patterns and bursts, with offline capture analysis, streaming input, JSONL alerts, and optional HTTPS webhooks.
 
-<img src="https://img.shields.io/badge/DNS_ANALYSIS-00FF88?style=flat-square&labelColor=0B1710" alt="DNS analysis"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
 
-Heuristic detection of suspicious DNS domain patterns and bursts, with offline capture analysis, streaming input, JSONL alerts, and optional HTTPS webhooks.
+**[03 · banter](https://github.com/navairgap/banter)**
 
-</td>
-<td width="33%" valign="top">
+A real-time chat app used to work on event handling, origin checks, connection limits, payload bounds, and integration testing.
 
-### [banter](https://github.com/navairgap/banter)
+    </td>
+    <td width="50%" valign="top">
 
-<img src="https://img.shields.io/badge/WEB_SYSTEMS-00FF88?style=flat-square&labelColor=0B1710" alt="Web systems"/>
+**[04 · python-projects](https://github.com/navairgap/python-projects)**
 
-Real-time Socket.IO chat with origin checks, connection caps, event throttling, bounded payloads, and integration tests.
+A collection of standard-library CLI tools: password generation, todo tracking, weather, disk auditing, network diagnostics, and static file serving.
 
-</td>
-</tr>
-<tr>
-<td valign="top">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
 
-### [python-projects](https://github.com/navairgap/python-projects)
+**[05 · macabre](https://github.com/navairgap/learning-rust/tree/main/macabre)**
 
-<img src="https://img.shields.io/badge/PYTHON_CLI-00FF88?style=flat-square&labelColor=0B1710" alt="Python CLI"/>
+A Linux CLI for inspecting, changing, and restoring network-interface MAC addresses, with system-level operations kept explicit.
 
-A collection of standard-library command-line tools with tests, including password generation, network diagnostics, disk auditing, and static file serving.
+    </td>
+    <td width="50%" valign="top">
 
-</td>
-<td valign="top">
+**[06 · nav-portfolio](https://github.com/navairgap/nav-portfolio)**
 
-### [macabre](https://github.com/navairgap/learning-rust/tree/main/macabre)
+A terminal-inspired web portfolio with lexical retrieval, optional semantic search, and a rate-limited API endpoint.
 
-<img src="https://img.shields.io/badge/RUST_SYSTEMS-00FF88?style=flat-square&labelColor=0B1710" alt="Rust systems"/>
-
-A Linux CLI for inspecting, changing, and restoring network-interface MAC addresses.
-
-</td>
-<td valign="top">
-
-### [nav-portfolio](https://github.com/navairgap/nav-portfolio)
-
-<img src="https://img.shields.io/badge/WEB_ENGINEERING-00FF88?style=flat-square&labelColor=0B1710" alt="Web engineering"/>
-
-A terminal-style portfolio with BM25 retrieval, optional semantic search, and a rate-limited API endpoint.
-
-</td>
-</tr>
+    </td>
+  </tr>
 </table>
 
-More interface and systems experiments: [3D portfolio](https://github.com/navairgap/3d-portfolio) · [portfolio OS](https://github.com/navairgap/portfolio-os) · [dotfiles](https://github.com/navairgap/dotfiles).
+Other experiments: [3D portfolio](https://github.com/navairgap/3d-portfolio) · [portfolio OS](https://github.com/navairgap/portfolio-os) · [dotfiles](https://github.com/navairgap/dotfiles).
 
-## `$ principles`
+## `$ operating_principles`
 
-- **Authorized scope only.** Test systems I own or have explicit permission to assess.
-- **Safe by default.** Prefer local processing and passive observation where practical; validate untrusted input and bound resource use.
-- **Evidence over hype.** Tests and CI help establish behavior, but a green build is not a security guarantee.
-- **Document the limits.** Explain assumptions, failure modes, and what a tool does not do.
+```text
+01  AUTHORIZED SCOPE  — assess only systems I own or have permission to test
+02  SAFE DEFAULTS     — validate input, limit resources, fail clearly
+03  EVIDENCE FIRST    — tests show behavior; they do not prove security
+04  HONEST DOCS       — describe limits, assumptions, and failure modes
+```
+
+## `$ stack`
+
+`Python` / `Rust` / `TypeScript` / `JavaScript` / `Bash`
+`Linux` / `Networking` / `HTTP & TLS` / `DNS` / `GitHub Actions`
 
 ---
 
@@ -167,12 +121,12 @@ More interface and systems experiments: [3D portfolio](https://github.com/navair
 
 <div align="center">
 
-<a href="https://github.com/navairgap?tab=repositories">[ VIEW REPOSITORIES ]</a>
-&nbsp;·&nbsp;
-<a href="https://navairgap.github.io">[ OPEN PORTFOLIO ]</a>
+<a href="https://github.com/navairgap?tab=repositories"><code>[ LIST REPOSITORIES ]</code></a>
+&nbsp; / &nbsp;
+<a href="https://navairgap.github.io"><code>[ OPEN PORTFOLIO ]</code></a>
 
 <img src="https://komarev.com/ghpvc/?username=navairgap&color=00ff88&style=flat-square" alt="Profile views"/>
 
-<sub><code>build responsibly / measure honestly / keep learning</code></sub>
+<sub><code>build responsibly · measure honestly · keep learning</code></sub>
 
 </div>
