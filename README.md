@@ -176,3 +176,8 @@ More interface and systems experiments: [3D portfolio](https://github.com/navair
 <sub><code>build responsibly / measure honestly / keep learning</code></sub>
 
 </div>
+
+
+## Profile maintenance
+
+Keep the existing contribution graph and snake game when revising this profile. Verify referenced assets, use descriptive alt text, and do not present custom graphics as official GitHub achievements.
