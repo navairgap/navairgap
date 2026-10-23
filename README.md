@@ -181,3 +181,8 @@ More interface and systems experiments: [3D portfolio](https://github.com/navair
 ## Profile maintenance
 
 Keep the existing contribution graph and snake game when revising this profile. Verify referenced assets, use descriptive alt text, and do not present custom graphics as official GitHub achievements.
+
+
+## Maintenance and verification notes
+
+Add profile maintenance checks: preserve the contribution graph and snake game, verify asset paths, keep alt text useful, and distinguish official GitHub achievements from custom graphics.
