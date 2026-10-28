@@ -1,5 +1,10 @@
 name: Generate contribution snake
 
+# Avoid overlapping runs racing to update the generated SVG files.
+concurrency:
+  group: contribution-snake-${{ github.ref }}
+  cancel-in-progress: false
+
 on:
   schedule:
     - cron: "0 */12 * * *"   # twice a day
