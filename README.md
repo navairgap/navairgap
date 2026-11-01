@@ -30,6 +30,10 @@ Security-focused developer building practical tools for **network visibility, de
 
 My repositories are a mix of implemented tools, experiments, and learning projects. I aim to keep their scope and maturity clear—no inflated claims, just code and evidence.
 
+<div align="center">
+  <img src="assets/profile-terminal.svg" width="820" alt="Animated terminal profile showing navairgap, cybersecurity interests, a sample lab service check, and an engineering motto"/>
+</div>
+
 ## `$ focus`
 
 <table>
