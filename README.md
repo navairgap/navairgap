@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/security-banner.svg" alt="Navairgap security engineering terminal banner" width="100%"/>
+<img src="assets/security-banner-red.svg" alt="Navairgap security engineering terminal banner" width="100%"/>
 
 <p>
   <a href="https://github.com/navairgap?tab=repositories">Repositories</a>
