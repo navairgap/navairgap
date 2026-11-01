@@ -25,8 +25,8 @@ jobs:
         with:
           github_user_name: navairgap
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake.svg?color_snake=#d92020&color_dots=#f5eeee,#f2baba,#e77a7a,#d34848,#9c2020
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#ff3131&color_dots=#160909,#501111,#8b1717,#c42121,#ff4545
 
       - name: Push generated snake
         uses: EndBug/add-and-commit@v9
