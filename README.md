@@ -3,11 +3,11 @@
 <img src="assets/security-banner-yellow.svg" alt="Navairgap security engineering banner" width="100%"/>
 
 <p>
-  <a href="https://navairgap.github.io">Portfolio</a>
-  &nbsp;·&nbsp;
-  <a href="https://3d-portfolio-nav-8975.vercel.app">3D Portfolio</a>
-  &nbsp;·&nbsp;
-  <a href="https://navairgap.github.io/os/">Portfolio OS</a>
+  <a href="https://navairgap.github.io"><img src="https://img.shields.io/badge/PORTFOLIO-0C0C0C?style=for-the-badge&logo=firefoxbrowser&logoColor=FFCF00&labelColor=0C0C0C" alt="Portfolio"/></a>
+  &nbsp;
+  <a href="https://3d-portfolio-nav-8975.vercel.app"><img src="https://img.shields.io/badge/3D_PORTFOLIO-0C0C0C?style=for-the-badge&logo=three.js&logoColor=FFCF00&labelColor=0C0C0C" alt="3D Portfolio"/></a>
+  &nbsp;
+  <a href="https://navairgap.github.io/os/"><img src="https://img.shields.io/badge/PORTFOLIO_OS-0C0C0C?style=for-the-badge&logo=linux&logoColor=FFCF00&labelColor=0C0C0C" alt="Portfolio OS"/></a>
 </p>
 
 <p>
