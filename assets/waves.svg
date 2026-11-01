@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="70" viewBox="0 0 820 70">
-  <path fill="#cdc4ba" opacity="0.4" d="M0 40 Q 100 15 205 40 T 410 40 T 615 40 T 820 40 V70 H0 Z">
-    <animateTransform attributeName="transform" type="translate" values="0 0; -205 0; 0 0" dur="7s" repeatCount="indefinite"/>
-  </path>
-  <path fill="#cdc4ba" opacity="0.22" d="M0 50 Q 100 30 205 50 T 410 50 T 615 50 T 820 50 V70 H0 Z">
-    <animateTransform attributeName="transform" type="translate" values="-205 0; 0 0; -205 0" dur="9s" repeatCount="indefinite"/>
-  </path>
-</svg>
